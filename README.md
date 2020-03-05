@@ -15,6 +15,6 @@ python predict.py -c config.json -w /path/of/trained_wts.h5 -i /path/of/image(jp
 ```
 
 ### Example
-![Road with potholes](potholes_detection/images/pothole1.jpg?raw=true "Road with Potholes")
+![Road with potholes](potholes_detection/images/pothole2.jpg?raw=true "Road with Potholes")
 ### Detected potholes: -
-![Road with potholes detected](potholes_detection/images/pothole1_detected.jpg?raw=true "Road with Potholes")
+![Road with potholes detected](potholes_detection/images/pothole2_detected.jpg?raw=true "Road with Potholes")
