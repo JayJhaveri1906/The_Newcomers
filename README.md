@@ -1,4 +1,3 @@
-# The_Newcomers
-## Pothole Detection System
-
+# Pothole Detection System
+## by The_Newcomers
 ### Read ppt for overview
