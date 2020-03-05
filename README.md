@@ -14,4 +14,7 @@ For Google Colabs (easier to run) just use : - tensorflow-gpu==1.14
 python predict.py -c config.json -w /path/of/trained_wts.h5 -i /path/of/image(jpg or png)/or/video(mp4)
 ```
 
-# Example
+### Example
+![Road with potholes](images/1.jpg?raw=true "Road with Potholes")
+### Detected potholes: -
+![Road with potholes](images/1_detected.jpg?raw=true "Road with Potholes")
