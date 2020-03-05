@@ -10,5 +10,5 @@ For Google Colabs (easier to run) just use : - tensorflow-gpu==1.14
 
 #### To run: - 
 ```
-python predict.py -c config.json -w \\path\\of\\trained_wts.h5 -i \\path\\of\\image(jpg or png)\\or\\video(mp4)
+python predict.py -c config.json -w /path/of/trained_wts.h5 -i /path/of/image(jpg or png)/or/video(mp4)
 ```
