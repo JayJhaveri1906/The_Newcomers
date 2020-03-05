@@ -1,4 +1,4 @@
-# Pothole Detection System
+# Pothole Detection System (image or video)
 ##               by The_Newcomers
 ### Read ppt for overview
 
@@ -8,3 +8,4 @@ For local running use: - tensorflow-gpu==1.15 , CUDA V 10.0 , cuDNN V 7.6.5  ( h
 
 For Google Colabs use(easier to run) just use : - tensorflow-gpu==1.14
 
+#### To run: - python predict.py -c config.json -w \\path\\of\\trained_wts.h5 -i \\path\\of\\image(jpg or png)\\or\\video(mp4)
