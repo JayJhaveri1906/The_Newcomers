@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="forImg.css">
+	<script src="Img.js"></script>
+    
+</head>
+
+<body>
+
+   <nav class="navbar navbar-toggleable-md bg-info navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Training</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="registration.html">Register/Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+	<!-- Navigation!!^^-->
+	
+	
+	
+    <div class="jombotron jombotron-fluid bg-info text-white text-center"><!-- bg info : light blue color, primary :blue color, success: green color-->
+		<div class="container">
+			<h1 class="display-1" style="font-family:jokerman;">Welcome to Pothole Detector</h1>
+			<p class="lead" style="font-family:deanna;font-size:2.5em;">A Bumpy Path To Clearer Paths</p>
+		</div>
+	</div>
+
+    
+
+<div class="row">
+   <div class="col-md-6" height="600px">
+    <div class="container py-5 bg-info">
+
+    <!-- For demo purpose -->
+    
+
+<form>
+    <div class="row py-4 ">
+        <div class="col-lg-6 mx-auto" >
+
+            <!-- Upload image input-->
+            <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                <input id="upload" type="file" onchange="readURL(this);" class="form-control border-0">
+                <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>
+                <div class="input-group-append">
+                    <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i class="fa fa-cloud-upload mr-2 text-muted"></i><small class="text-uppercase font-weight-bold text-muted"></small></label>
+                </div>
+				
+            </div>
+
+            <!-- Uploaded image area-->
+            <p class="font-italic text-white text-center">The image uploaded will be rendered inside the box below.</p>
+            <div class="image-area mt-4"><img id="imageResult" src="#" alt="" class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+
+        </div>
+		
+		
+		
+    </div>
+	<p align="center">
+		<input type="submit" >
+		</p>
+</div></div>
+<div class="col-md-6 bg-info" height="600px">Rendered Image:-<br><img src="" width="300px" height="300px"alt="Rendered Image will be displayed here...."></div>
+    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+	
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
