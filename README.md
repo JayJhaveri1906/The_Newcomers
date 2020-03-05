@@ -2,6 +2,10 @@
 ##               by The_Newcomers
 ### Read ppt for overview
 
+This model is a deep learning model using YOLO v2.
+
+It has been trained for ~125 images and the accuracy would get better with larger database.
+
 For Pre Trained wts : - https://drive.google.com/open?id=1bqqA49WElVIsNqJnU61R7XKipD_NpzVj
 
 Run `pip install -r requirements.txt` in the potholes_detection detection folder. Then for tensorflow: -
